@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class comline {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        System.out.print("Command: ");
+        String num = in.nextLine();
+
+        System.out.printf("Your number: " + num);
+        in.close();
+    }
+}
